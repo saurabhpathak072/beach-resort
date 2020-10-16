@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import defaultBcg from '../../images/room-1.jpeg';
-import Hero from '../../Components/Hero/Hero';
+// import Hero from '../../Components/Hero/Hero';
 import Banner from '../../Components/Banner/Banner';
 import {RoomContext} from '../../Context/Context';
 import {Link, withRouter} from 'react-router-dom';
@@ -30,7 +30,7 @@ import StyledHero from '../../Components/StyledHero/StyledHero';
             </div>);
         }
         const {name,description,capacity,size,price,extras,breakfast,pets,images}=room;
-        const [mainImg, ...defaultBcg]=images;
+        const [...defaultBcg]=images;
         return (
             <>
             <StyledHero img={images[0] || this.state.defaultBcg}>
