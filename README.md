@@ -1,5 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### Live App view : https://beach-resort-c2c74.web.app/rooms
 ## Available Scripts
 
 In the project directory, you can run:
